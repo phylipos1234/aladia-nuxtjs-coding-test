@@ -19,7 +19,7 @@
         </div>
         <div class="md:col-span-3 p-4"></div>
       </div>
-      <div class="my-3">
+      <div class="mb-3 mt-6">
         <p class="font-bold text-2xl my-3">Explore related topics</p>
         <div class="flex flex-wrap">
           <p
@@ -43,6 +43,6 @@
   </div>
 </template>
 <script setup>
-import TopicsGrid from "./topicsGrid.vue";
+import TopicsGrid from "../Components/topicsGrid.vue";
 import { topicsList } from "../data/topicsList";
 </script>
