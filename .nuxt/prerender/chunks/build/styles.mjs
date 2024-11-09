@@ -1,0 +1,41 @@
+const interopDefault = r => r.default || r || [];
+const styles = {
+  "node_modules/nuxt/dist/app/entry.js": () => import('./entry-styles.Dlto1d3-.mjs').then(interopDefault),
+  "plugins/vuetify.js": () => import('./vuetify-styles.u2DKoFvE.mjs').then(interopDefault),
+  "node_modules/nuxt/dist/app/components/error-404.vue": () => import('./error-404-styles.BcoFjqgl.mjs').then(interopDefault),
+  "node_modules/nuxt/dist/app/components/error-500.vue": () => import('./error-500-styles.DPP87-Dp.mjs').then(interopDefault),
+  "Sections/courseInformation.vue": () => import('./courseInformation-styles.LH2sPSlI.mjs').then(interopDefault),
+  "Sections/description.vue": () => import('./description-styles.cwyaYaWn.mjs').then(interopDefault),
+  "Sections/courseInformation.vue?vue&type=style&index=0&scoped=6f52372f&lang.css": () => import('./courseInformation-styles.B9dn5axc.mjs').then(interopDefault),
+  "node_modules/nuxt/dist/app/components/error-404.vue?vue&type=style&index=0&scoped=00b6b518&lang.css": () => import('./error-404-styles.DRLC0U6S.mjs').then(interopDefault),
+  "node_modules/nuxt/dist/app/components/error-500.vue?vue&type=style&index=0&scoped=f7ad9679&lang.css": () => import('./error-500-styles.DqmriZ_b.mjs').then(interopDefault),
+  "Sections/description.vue?vue&type=style&index=0&scoped=71062234&lang.css": () => import('./description-styles.C3ak2SY-.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VApp/VApp.mjs": () => import('./VApp-styles.D3RnILB1.mjs').then(interopDefault),
+  "Components/reviewCard.vue": () => import('./reviewCard-styles.3pD3reGz.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs": () => import('./VBreadcrumbs-styles.BB19JMJq.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VIcon/VIcon.mjs": () => import('./VIcon-styles._8GsAkxR.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs": () => import('./VExpansionPanels-styles.ChE967I5.mjs').then(interopDefault),
+  "Components/reviewCard.vue?vue&type=style&index=0&lang.css": () => import('./reviewCard-styles.B_bvAtnG.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VGrid/VCol.mjs": () => import('./VCol-styles.Jrf_WBme.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VGrid/VRow.mjs": () => import('./VCol-styles.Jrf_WBme.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VGrid/VContainer.mjs": () => import('./VCol-styles.Jrf_WBme.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VCard/VCard.mjs": () => import('./VCard-styles.Cfo20cLr.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VTabs/VTab.mjs": () => import('./VTab-styles.Js1-pm4j.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VTabs/VTabs.mjs": () => import('./VTabs-styles.hlj1Rfdj.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/directives/ripple/index.mjs": () => import('./index-styles.Di_n2o71.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VBtn/VBtn.mjs": () => import('./VBtn-styles.CdN7EQ2K.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VWindow/VWindow.mjs": () => import('./VWindow-styles.CpzsIdt4.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs": () => import('./VSlideGroup-styles.s08wFE3T.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs": () => import('./VAvatar-styles.CbYM53j9.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VImg/VImg.mjs": () => import('./VImg-styles.CEdAlygo.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs": () => import('./VBtnGroup-styles.DBfQVogb.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.mjs": () => import('./VBtnToggle-styles.kpfFEaCH.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs": () => import('./VOverlay-styles.BKD0AcbM.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs": () => import('./VProgressCircular-styles.B-Mr75e9.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs": () => import('./VProgressLinear-styles.DZG2Fwns.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VResponsive/VResponsive.mjs": () => import('./VResponsive-styles.B6XVwghs.mjs').then(interopDefault),
+  "node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs": () => import('./VTooltip-styles.B4Of83mF.mjs').then(interopDefault)
+};
+
+export { styles as default };
+//# sourceMappingURL=styles.mjs.map
