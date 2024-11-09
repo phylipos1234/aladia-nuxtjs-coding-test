@@ -15,6 +15,9 @@ export default defineNuxtConfig({
     head: {
       title: "Master Nuxt 3 - Full-Stack Complete Guide",
     },
+    
+      baseURL: '/aladia-nuxtjs-coding-test/'
+    
   },
   build: {
     transpile: ["vuetify"],
@@ -34,4 +37,5 @@ export default defineNuxtConfig({
       },
     },
   },
+  
 });
