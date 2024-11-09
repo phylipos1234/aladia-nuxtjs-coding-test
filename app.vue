@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <NavBar />
     <NuxtRouteAnnouncer />
     <Hero />
     <Topics />
@@ -15,6 +16,7 @@
 </template>
 
 <script setup>
+import NavBar from "./Sections/navbar";
 import Hero from "./Sections/hero";
 import Topics from "./Sections/topics";
 import CourseInformation from "./Sections/courseInformation";
