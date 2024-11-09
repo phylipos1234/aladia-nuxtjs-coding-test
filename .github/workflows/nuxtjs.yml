@@ -29,13 +29,22 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      # Generate the static site in the 'dist' directory
       - name: Generate static site
-        run: npm run generate  # Ensure this command creates 'dist'
+        run: npx nuxi generate
+
+      # Verify that the 'dist' directory exists before uploading
+      - name: Check dist directory
+        run: |
+          if [ ! -d "./dist" ]; then
+            echo "Dist directory not found!"
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist  # Confirm that 'dist' is the output directory
+          path: ./dist  # The output directory for GitHub Pages
 
   deploy:
     environment:
