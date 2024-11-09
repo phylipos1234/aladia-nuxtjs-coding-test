@@ -10,21 +10,27 @@
     <Requirements />
     <Description />
     <StudentsBought />
-    <moreCourses />
+    <Instructor />
+    <Reviews />
+    <MoreCourses />
     <Footer />
+    <StickyCard />
   </v-app>
 </template>
 
 <script setup>
-import NavBar from "./Sections/navbar";
 import Hero from "./Sections/hero";
+import NavBar from "./Sections/navbar";
 import Topics from "./Sections/topics";
+import Companies from "./Sections/companies.vue";
 import CourseInformation from "./Sections/courseInformation";
 import CourseDetail from "./Sections/courseDetail";
-import Footer from "./Sections/footer";
-import Companies from "./Sections/companies.vue"
 import Requirements from "./Sections/requirements";
 import Description from "./Sections/description";
 import StudentsBought from "./Sections/studentsBought";
-import moreCourses  from "./Sections/moreCourses";
+import Instructor from "./Sections/instructor";
+import Reviews from "./Sections/reviews";
+import MoreCourses from "./Sections/moreCourses";
+import Footer from "./Sections/footer";
+import StickyCard from "./Components/stickyCard";
 </script>

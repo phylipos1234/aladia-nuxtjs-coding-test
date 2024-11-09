@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:w-[80%] m-auto mt-2 mb-10">
+  <div class="w-[90%] md:w-[80%] m-auto mt-2 mb-10">
     <div class="w-full">
       <p class="font-bold text-2xl my-4">Requirements</p>
       <ul class="list-disc pl-5">

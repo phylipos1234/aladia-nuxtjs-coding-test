@@ -1,11 +1,11 @@
 <template>
-  <div class="w-full md:w-[80%] m-auto mt-2 mb-10">
+  <div class="w-[90%] md:w-[80%] m-auto mt-2 mb-10">
     <div class="w-full">
       <p class="font-bold text-2xl my-2">Students also bought</p>
       <div class="grid grid-cols-1 md:grid-cols-10 gap-6 relative">
         <div class="col-span-10 md:col-span-7">
           <v-container>
-            <v-row v-for="n in visibleCount" :key="n">
+            <v-row v-for="n in visibleCount" :key="n" class="cursor-pointer">
               <v-col cols="12" sm="6" md="6" class="flex">
                 <img
                   src="https://img-c.udemycdn.com/course/100x100/5573566_6eb5_9.jpg"

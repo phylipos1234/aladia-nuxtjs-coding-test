@@ -10,11 +10,7 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        roboto: ['Roboto', 'sans-serif'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

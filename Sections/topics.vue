@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:w-[80%] m-auto mt-4 p-1">
+  <div class="w-[90%] md:w-[80%] m-auto mt-4 p-1">
     <div class="w-full">
       <div class="grid grid-cols-1 md:grid-cols-10 gap-4">
         <div class="col-span-10 md:col-span-7 p-4 border-2">

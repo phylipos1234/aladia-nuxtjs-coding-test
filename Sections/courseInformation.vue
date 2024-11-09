@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:w-[80%] m-auto mt-8">
+  <div class="w-[90%] md:w-[80%] m-auto mt-8">
     <div class="w-full">
       <p class="font-bold text-2xl my-4">This course includes:</p>
       <div class="grid grid-cols-1 md:grid-cols-10 gap-6">

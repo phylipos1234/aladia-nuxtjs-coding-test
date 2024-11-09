@@ -14,10 +14,8 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Master Nuxt 3 - Full-Stack Complete Guide",
+      link: [{ rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     },
-    
-      baseURL: '/aladia-nuxtjs-coding-test/'
-    
   },
   build: {
     transpile: ["vuetify"],
@@ -37,5 +35,4 @@ export default defineNuxtConfig({
       },
     },
   },
-  
 });
