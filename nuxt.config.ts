@@ -1,3 +1,4 @@
+// nuxt.config.js
 import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 export default defineNuxtConfig({
@@ -15,7 +16,7 @@ export default defineNuxtConfig({
       title: "Master Nuxt 3 - Full-Stack Complete Guide",
       link: [{ rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     },
-    baseURL: process.env.NODE_ENV === 'production' ? '/aladia-nuxtjs-coding-test/' : '/',
+    baseURL: process.env.NODE_ENV === "production" ? "/your-repo-name/" : "/",
   },
   build: {
     transpile: ["vuetify"],
@@ -23,7 +24,7 @@ export default defineNuxtConfig({
   modules: [
     (_options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) => {
-         // @ts-expect-error
+        // @ts-expect-error
         config.plugins.push(vuetify({ autoImport: true }));
       });
     },
@@ -36,6 +37,9 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
-    preset: "static",
-  },
+    preset: 'static',
+    output: {
+      dir: 'dist'  // Ensure the output directory is set to 'dist'
+    }
+  }
 });
