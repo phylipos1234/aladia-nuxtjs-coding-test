@@ -2,9 +2,12 @@
 import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 export default defineNuxtConfig({
+  // @ts-expect-error
+  target: "static",
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
   css: ["~/assets/css/main.css"],
+ 
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -16,7 +19,7 @@ export default defineNuxtConfig({
       title: "Master Nuxt 3 - Full-Stack Complete Guide",
       link: [{ rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     },
-    baseURL: process.env.NODE_ENV === "production" ? "/your-repo-name/" : "/",
+    baseURL: process.env.NODE_ENV === "production" ? "/aladia-nuxtjs-coding-test" : "/",
   },
   build: {
     transpile: ["vuetify"],
