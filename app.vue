@@ -10,6 +10,7 @@
     <Requirements />
     <Description />
     <StudentsBought />
+    <FrequentlyBought />
     <Instructor />
     <Reviews />
     <MoreCourses />
@@ -33,4 +34,5 @@ import Reviews from "./Sections/reviews";
 import MoreCourses from "./Sections/moreCourses";
 import Footer from "./Sections/footer";
 import StickyCard from "./Components/stickyCard";
+import FrequentlyBought from "./Sections/frequentlyBought";
 </script>

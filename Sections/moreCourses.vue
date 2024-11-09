@@ -37,12 +37,9 @@
             <!-- second -->
             <div class="flex flex-col items-start gap-2  w-[30%] md:w-auto">
               <img
-                src="https://img-b.udemycdn.com/course/240x135/2020278_e07c_10.jpg"
+                src="https://img-b.udemycdn.com/course/240x135/3792262_6b0c_2.jpg"
                 alt=""
-                srcset="
-                  https://img-b.udemycdn.com/course/240x135/2020278_e07c_10.jpg 1x,
-                  https://img-b.udemycdn.com/course/480x270/2020278_e07c_10.jpg 2x
-                "
+                
                 class="w-[130px] h-[80px] md:w-[240px] md:h-[135px] border-[2px] border-black"
                 loading="lazy"
               />
@@ -68,12 +65,9 @@
             <!-- third -->
             <div class="flex flex-col items-start gap-2  w-[30%] md:w-auto">
               <img
-                src="https://img-b.udemycdn.com/course/240x135/2020278_e07c_10.jpg"
+                src="https://img-b.udemycdn.com/course/240x135/5239222_f364.jpg"
                 alt=""
-                srcset="
-                  https://img-b.udemycdn.com/course/240x135/2020278_e07c_10.jpg 1x,
-                  https://img-b.udemycdn.com/course/480x270/2020278_e07c_10.jpg 2x
-                "
+                
                 class="w-[130px] h-[80px] md:w-[240px] md:h-[135px] border-[2px] border-black"
                 loading="lazy"
               />
