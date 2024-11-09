@@ -2,7 +2,7 @@
   <div class="w-full md:w-[80%] m-auto mt-4 p-1 font-roboto">
     <div class="w-full">
       <div class="grid grid-cols-1 md:grid-cols-10 gap-4">
-        
+
         <div class="col-span-10 md:col-span-7 py-2 px-4 border-2">
           <p class="font-bold text-[14px] md:text-[16px]">
             Top companies offer this course to their employees
@@ -120,16 +120,7 @@
               We add to the collection based on market trends and feedback from
               learners and their organizations.
             </p>
-            <h2 class="font-bold text-lg md:text-xl">Data driven</h2>
-            <p class="text-sm md:text-base leading-relaxed text-center px-4">
-              We curate the collection based on unique data points to identify
-              new and emerging skills.
-            </p>
-            <h2 class="font-bold text-lg md:text-xl">Better every day</h2>
-            <p class="text-sm md:text-base leading-relaxed text-center px-4">
-              We continuously refine the collection to help learners and
-              businesses stay one step ahead.
-            </p>
+           
           </div>
 
           <div
