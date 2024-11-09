@@ -4,6 +4,7 @@
       <div class="grid grid-cols-1 md:grid-cols-10 gap-4">
         <div class="col-span-10 md:col-span-7 py-2 border-b-2">
           <div class="flex  justify-around gap-1 md:gap-4">
+            <!-- first -->
             <div class="flex flex-col items-start gap-2  w-[30%] md:w-auto">
               <img
                 src="https://img-b.udemycdn.com/course/240x135/2020278_e07c_10.jpg"
@@ -91,8 +92,15 @@
             </div>
             
           </div>
+
+         
         </div>
         <div class="md:col-span-3 p-4"></div>
+
+        <div class="border-[1px] col-span-7 text-center md:grid-cols-10 w-full border-black inline px-3 py-2 hover:bg-slate-300 font-bold cursor-pointer" >
+            Report abuse
+          </div>
+        
       </div>
     </div>
   </div>
