@@ -1,4 +1,3 @@
-
 name: Deploy Nuxt site to Pages
 
 on:
@@ -33,17 +32,17 @@ jobs:
       - name: Generate static site
         run: npx nuxi generate
 
-      - name: Check dist directory
+      - name: Check .output/public directory
         run: |
-          if [ ! -d "./dist" ]; then
-            echo "Dist directory not found!"
+          if [ ! -d ".output/public" ]; then
+            echo ".output/public directory not found!"
             exit 1
           fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-           path: .output/public  
+          path: .output/public
 
   deploy:
     environment:
