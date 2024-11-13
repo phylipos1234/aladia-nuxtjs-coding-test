@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'static',
     output: {
-      dir: 'dist'  // Ensure the output directory is set to 'dist'
+      dir: 'dist' 
     }
   }
 });

@@ -32,17 +32,17 @@ jobs:
       - name: Generate static site
         run: npx nuxi generate
 
-      - name: Check .output/public directory
+      - name: Check dist/public directory
         run: |
-          if [ ! -d ".output/public" ]; then
-            echo ".output/public directory not found!"
+          if [ ! -d "dist/public" ]; then
+            echo "dist/public directory not found!"
             exit 1
           fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: dist/public
 
   deploy:
     environment:
