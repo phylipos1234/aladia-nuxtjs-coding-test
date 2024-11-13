@@ -1,6 +1,8 @@
 <template>
-  <v-app>
+  <v-app class="relative">
     <NavBar />
+     <FloatingNavBar />
+     <div class="relative w-full h-full">
     <NuxtRouteAnnouncer />
     <Hero />
     <Topics />
@@ -14,14 +16,16 @@
     <Instructor />
     <Reviews />
     <MoreCourses />
-    <Footer />
     <StickyCard />
+  </div>
+    <Footer />
   </v-app>
 </template>
 
 <script setup>
 import Hero from "./Sections/hero";
 import NavBar from "./Sections/navbar";
+import FloatingNavBar from "./Sections/floatingNavBar";
 import Topics from "./Sections/topics";
 import Companies from "./Sections/companies.vue";
 import CourseInformation from "./Sections/courseInformation";

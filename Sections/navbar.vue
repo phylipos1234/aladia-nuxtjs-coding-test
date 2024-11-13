@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-between p-4 bg-gray-100 space-x-4">
+  <div class="flex items-center justify-between px-4 py-2.5 bg-gray-100 space-x-4 relative top-0 left-0 w-full z-50 ">
     <!-- Hamburger Menu for Mobile -->
     <div class="lg:hidden">
       <button @click="toggleMobileMenu" class="text-gray-700 hover:text-gray-900 focus:outline-none">
