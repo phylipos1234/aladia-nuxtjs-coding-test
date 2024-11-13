@@ -4736,7 +4736,7 @@ const VBreadcrumbs = genericComponent()({
     return {};
   }
 });
-const _sfc_main$j = {
+const _sfc_main$k = {
   __name: "hero",
   __ssrInlineRender: true,
   setup(__props) {
@@ -4819,11 +4819,11 @@ const _sfc_main$j = {
     };
   }
 };
-const _sfc_setup$j = _sfc_main$j.setup;
-_sfc_main$j.setup = (props, ctx) => {
+const _sfc_setup$k = _sfc_main$k.setup;
+_sfc_main$k.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("Sections/hero.vue");
-  return _sfc_setup$j ? _sfc_setup$j(props, ctx) : void 0;
+  return _sfc_setup$k ? _sfc_setup$k(props, ctx) : void 0;
 };
 const _export_sfc = (sfc, props) => {
   const target = sfc.__vccOpts || sfc;
@@ -4832,7 +4832,7 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$i = {
+const _sfc_main$j = {
   data() {
     return {
       searchQuery: "",
@@ -4878,8 +4878,8 @@ const _sfc_main$i = {
     }
   }
 };
-function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex items-center justify-between p-4 bg-gray-100 space-x-4" }, _attrs))}><div class="lg:hidden"><button class="text-gray-700 hover:text-gray-900 focus:outline-none"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div><div class="flex items-center space-x-2"><img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy Logo" class="h-10 w-auto"><span class="sr-only">Udemy</span></div><div class="flex items-center space-x-4 lg:hidden"><button class="text-gray-700 hover:text-gray-900 focus:outline-none"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2v6m0-6V4m0 0L8 6m4-2l4 2"></path></svg></button><button class="text-gray-700 hover:text-gray-900 focus:outline-none"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h18l-1 9H4L3 3zm0 0l1 9h16l1-9M5 21h14a2 2 0 002-2v-5H3v5a2 2 0 002 2z"></path></svg></button></div><div class="hidden lg:flex items-center justify-evenly w-full space-x-4"><div class="relative"><button class="text-gray-700 hover:text-gray-900 font-medium"> Categories </button>`);
+function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex items-center justify-between px-4 py-2.5 bg-gray-100 space-x-4 relative top-0 left-0 w-full z-50" }, _attrs))}><div class="lg:hidden"><button class="text-gray-700 hover:text-gray-900 focus:outline-none"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div><div class="flex items-center space-x-2"><img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy Logo" class="h-10 w-auto"><span class="sr-only">Udemy</span></div><div class="flex items-center space-x-4 lg:hidden"><button class="text-gray-700 hover:text-gray-900 focus:outline-none"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2v6m0-6V4m0 0L8 6m4-2l4 2"></path></svg></button><button class="text-gray-700 hover:text-gray-900 focus:outline-none"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h18l-1 9H4L3 3zm0 0l1 9h16l1-9M5 21h14a2 2 0 002-2v-5H3v5a2 2 0 002 2z"></path></svg></button></div><div class="hidden lg:flex items-center justify-evenly w-full space-x-4"><div class="relative"><button class="text-gray-700 hover:text-gray-900 font-medium"> Categories </button>`);
   if ($data.dropdownOpen) {
     _push(`<div class="absolute bg-white border border-gray-200 rounded shadow-md mt-2 w-72 transition-all duration-300 p-2 z-10"><ul class="grid grid-cols-2 gap-2"><!--[-->`);
     ssrRenderList($data.categories, (category) => {
@@ -4918,13 +4918,45 @@ function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
   }
   _push(`</div>`);
 }
+const _sfc_setup$j = _sfc_main$j.setup;
+_sfc_main$j.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("Sections/navbar.vue");
+  return _sfc_setup$j ? _sfc_setup$j(props, ctx) : void 0;
+};
+const NavBar = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["ssrRender", _sfc_ssrRender$a]]);
+const _sfc_main$i = {};
+function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs) {
+  const _component_NuxtLink = __nuxt_component_0;
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "bg-[#1c1d1f] py-2.5 px-4 fixed w-full z-40" }, _attrs))}><p class="text-white font-bold"> Master Nuxt 3 - Full-Stack Complete Guide </p><div class="mt-2 flex items-center"><p class="font-bold inline bg-[#ECEB98] px-1 py-1 text-xs"> Best Seller </p><p class="text-[#F69C08] text-sm mx-2">4.6</p><!--[-->`);
+  ssrRenderList(1, (n) => {
+    _push(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f69c08" class="size-3"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd"></path></svg>`);
+  });
+  _push(`<!--]-->`);
+  _push(ssrRenderComponent(_component_NuxtLink, {
+    to: "#",
+    class: "text-[#c0c4fc] underline text-sm mx-2"
+  }, {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(`(479 ratings)`);
+      } else {
+        return [
+          createTextVNode("(479 ratings)")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`<p class="text-white text-sm">3,236 students</p></div></div>`);
+}
 const _sfc_setup$i = _sfc_main$i.setup;
 _sfc_main$i.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("Sections/navbar.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("Sections/floatingNavBar.vue");
   return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
 };
-const NavBar = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$9]]);
+const FloatingNavBar = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$9]]);
 const _sfc_main$h = {
   __name: "topicsGrid",
   __ssrInlineRender: true,
@@ -11379,7 +11411,8 @@ const _sfc_main$4 = {
   data() {
     return {
       tab: null,
-      isScrolled: false,
+      isFixed: false,
+      atBottom: false,
       isLgScreen: false
     };
   },
@@ -11395,7 +11428,13 @@ const _sfc_main$4 = {
   },
   methods: {
     checkScrollPosition() {
-      this.isScrolled = (void 0).scrollY >= 250 && (void 0).scrollY <= 4e3;
+      const scrollTop = (void 0).scrollY;
+      const windowHeight = (void 0).innerHeight;
+      const documentHeight = (void 0).documentElement.scrollHeight;
+      const fixedStart = 250;
+      const fixedEnd = documentHeight - windowHeight - 200;
+      this.isFixed = scrollTop >= fixedStart && scrollTop <= fixedEnd;
+      this.atBottom = scrollTop > fixedEnd;
     },
     checkScreenSize() {
       this.isLgScreen = (void 0).innerWidth >= 1024;
@@ -11405,11 +11444,13 @@ const _sfc_main$4 = {
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${ssrRenderAttrs(mergeProps({
     class: [
-      " right-16  z-20 bg-white shadow-lg w-[350px] hidden xl:block",
-      $data.isScrolled ? "fixed" : "absolute",
-      $data.isScrolled ? "top-12" : "top-32"
+      "z-20 bg-white shadow-lg w-[350px] hidden xl:block",
+      $data.atBottom ? "absolute bottom-10 right-16 z-30" : $data.isFixed ? "fixed top-12 right-16 z-50" : "absolute top-32 right-16 z-30"
     ]
-  }, _attrs))}><div class="relative"><img src="https://img-c.udemycdn.com/course/750x422/5464302_718b_2.jpg" width="350" height="200" class="p-0.5"><div class="absolute z-40 top-[50%] left-[50%] w-16 h-16 rounded-full bg-white flex justify-center items-center cursor-pointer" style="${ssrRenderStyle({ "transform": "translate(-50%, -50%)" })}"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"></path></svg></div><p class="absolute bottom-2 text-white font-bold w-full text-center z-40"> Preview this course </p><div class="absolute inset-0 bg-black opacity-50"></div></div>`);
+  }, _attrs))}><div class="relative"><img style="${ssrRenderStyle(!$data.isFixed ? null : { display: "none" })}" src="https://img-c.udemycdn.com/course/750x422/5464302_718b_2.jpg" width="350" height="200" class="p-0.5"><div style="${ssrRenderStyle([
+    !$data.isFixed ? null : { display: "none" },
+    { "transform": "translate(-50%, -50%)" }
+  ])}" class="absolute z-40 top-[50%] left-[50%] w-16 h-16 rounded-full bg-white flex justify-center items-center cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"></path></svg></div><p style="${ssrRenderStyle(!$data.isFixed ? null : { display: "none" })}" class="absolute bottom-2 text-white font-bold w-full text-center z-40"> Preview this course </p><div class="absolute inset-0 bg-black opacity-50"></div></div>`);
   _push(ssrRenderComponent(VCard, null, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -11823,12 +11864,14 @@ const _sfc_main$2 = {
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_NuxtRouteAnnouncer = __nuxt_component_0$1;
-      _push(ssrRenderComponent(VApp, _attrs, {
+      _push(ssrRenderComponent(VApp, mergeProps({ class: "relative" }, _attrs), {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
             _push2(ssrRenderComponent(unref(NavBar), null, null, _parent2, _scopeId));
+            _push2(ssrRenderComponent(unref(FloatingNavBar), null, null, _parent2, _scopeId));
+            _push2(`<div class="relative w-full h-full"${_scopeId}>`);
             _push2(ssrRenderComponent(_component_NuxtRouteAnnouncer, null, null, _parent2, _scopeId));
-            _push2(ssrRenderComponent(unref(_sfc_main$j), null, null, _parent2, _scopeId));
+            _push2(ssrRenderComponent(unref(_sfc_main$k), null, null, _parent2, _scopeId));
             _push2(ssrRenderComponent(unref(_sfc_main$g), null, null, _parent2, _scopeId));
             _push2(ssrRenderComponent(unref(CourseInformation), null, null, _parent2, _scopeId));
             _push2(ssrRenderComponent(Companies, null, null, _parent2, _scopeId));
@@ -11840,26 +11883,30 @@ const _sfc_main$2 = {
             _push2(ssrRenderComponent(unref(Instructor), null, null, _parent2, _scopeId));
             _push2(ssrRenderComponent(unref(_sfc_main$7), null, null, _parent2, _scopeId));
             _push2(ssrRenderComponent(unref(MoreCourses), null, null, _parent2, _scopeId));
-            _push2(ssrRenderComponent(unref(Footer), null, null, _parent2, _scopeId));
             _push2(ssrRenderComponent(unref(StickyCard), null, null, _parent2, _scopeId));
+            _push2(`</div>`);
+            _push2(ssrRenderComponent(unref(Footer), null, null, _parent2, _scopeId));
           } else {
             return [
               createVNode(unref(NavBar)),
-              createVNode(_component_NuxtRouteAnnouncer),
-              createVNode(unref(_sfc_main$j)),
-              createVNode(unref(_sfc_main$g)),
-              createVNode(unref(CourseInformation)),
-              createVNode(Companies),
-              createVNode(unref(_sfc_main$d)),
-              createVNode(unref(Requirements)),
-              createVNode(unref(Description)),
-              createVNode(unref(_sfc_main$a)),
-              createVNode(unref(FrequentlyBought)),
-              createVNode(unref(Instructor)),
-              createVNode(unref(_sfc_main$7)),
-              createVNode(unref(MoreCourses)),
-              createVNode(unref(Footer)),
-              createVNode(unref(StickyCard))
+              createVNode(unref(FloatingNavBar)),
+              createVNode("div", { class: "relative w-full h-full" }, [
+                createVNode(_component_NuxtRouteAnnouncer),
+                createVNode(unref(_sfc_main$k)),
+                createVNode(unref(_sfc_main$g)),
+                createVNode(unref(CourseInformation)),
+                createVNode(Companies),
+                createVNode(unref(_sfc_main$d)),
+                createVNode(unref(Requirements)),
+                createVNode(unref(Description)),
+                createVNode(unref(_sfc_main$a)),
+                createVNode(unref(FrequentlyBought)),
+                createVNode(unref(Instructor)),
+                createVNode(unref(_sfc_main$7)),
+                createVNode(unref(MoreCourses)),
+                createVNode(unref(StickyCard))
+              ]),
+              createVNode(unref(Footer))
             ];
           }
         }),

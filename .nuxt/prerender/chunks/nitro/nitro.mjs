@@ -689,7 +689,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/aladia-nuxtjs-coding-test",
-    "buildId": "91df9a35-54bf-43fb-93a3-91d39dce45a7",
+    "buildId": "67f36a91-5ddf-4f2b-8c84-7fa6b47a67e8",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
